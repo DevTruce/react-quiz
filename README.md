@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<a id="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+[![Contributors][contributors-icon]][contributors-link]
+[![Forks][forks-icon]][forks-link]
+[![Stargazers][stars-icon]][stars-link]
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/DevTruce/react-quiz">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3 align="center">🧠 React Quiz</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    lightweight react quiz
+    <br />
+    <br />
+    <!-- <a href="https://devtruce.github.io/react-quiz/" target="_blank">View Demo</a> -->
+  </p>
+</div>
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A quiz where users can select a difficulty, choose how many questions they want to take, and get a final score at the end. This project focuses on component architecture, state management, conditional rendering, and building a polished user experience.
 
-### `npm run build`
+Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Choose difficulty (easy / medium / hard)
+- Select the number of questions
+- Track progress throughout the quiz
+- View a detailed final score
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![react-quiz screenshot][product-screenshot1]](product-link)
+[![react-quiz screenshot][product-screenshot2]](product-link)
+[![react-quiz screenshot][product-screenshot3]](product-link)
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [![HTML5][html5-icon]][html5-link]
+- [![CSS3][css3-icon]][css3-link]
+- [![JavaScript][JavaScript-icon]][JavaScript-link]
+- [![React][react-icon]][react-link]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- CONTACT -->
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Email: [DevTruce@outlook.com]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- #### MARKDOWN LINKS & IMAGES #### -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- ## GitHub ##-->
+<!-- links -->
 
-### Analyzing the Bundle Size
+[contributors-link]: https://github.com/DevTruce/react-quiz/graphs/contributors
+[forks-link]: https://github.com/DevTruce/react-quiz/network/members
+[stars-link]: https://github.com/DevTruce/react-quiz/stargazers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- icons -->
 
-### Making a Progressive Web App
+[contributors-icon]: https://img.shields.io/github/contributors/DevTruce/react-quiz.svg?style=for-the-badge
+[forks-icon]: https://img.shields.io/github/forks/DevTruce/react-quiz.svg?style=for-the-badge
+[stars-icon]: https://img.shields.io/github/stars/DevTruce/react-quiz.svg?style=for-the-badge
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- ## Project ## -->
 
-### Advanced Configuration
+[product-screenshot1]: images/screenshot1.png
+[product-screenshot2]: images/screenshot2.png
+[product-screenshot3]: images/screenshot3.png
+[product-link]: https://devtruce.github.io/react-quiz/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- ## Tech & Tools ## -->
+<!-- links -->
 
-### Deployment
+[html5-link]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[css3-link]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[javascript-link]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[react-link]: https://react.dev/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- icons -->
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[html5-icon]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
+[css3-icon]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS&logoColor=white
+[javascript-icon]: https://img.shields.io/badge/Javascript-FCE22A?style=for-the-badge&logo=javascript&logoColor=black
+[react-icon]: https://img.shields.io/badge/react-61DBFB?style=for-the-badge&logo=react&logoColor=black
