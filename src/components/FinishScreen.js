@@ -1,14 +1,16 @@
+import { useQuiz } from "../context/QuizContext";
 import AnswerHistory from "./AnswerHistory";
 
-function FinishScreen({
-  points,
-  maxPossiblePoints,
-  highscore,
-  dispatch,
-  sortedQuestions,
-  answerHistory,
-  showQuizResults,
-}) {
+function FinishScreen() {
+  const {
+    points,
+    maxPossiblePoints,
+    highscore,
+    dispatch,
+    sortedQuestions,
+    answerHistory,
+    showQuizResults,
+  } = useQuiz();
   const percentage = (points / maxPossiblePoints) * 100;
   let emoji;
   if (percentage === 100) emoji = "🥇";
